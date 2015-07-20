@@ -1,0 +1,244 @@
+body {
+
+  background-color: #3D3D3D;
+
+}
+
+#header_image_div {
+  position: relative;
+  background-color: #3D3D3D;
+  width: 1250px;
+  height: 400px;
+  margin-right: auto;
+  margin-left: auto;
+
+
+}
+
+#header_image {
+
+  display: block;
+
+}
+
+#personal_picture {
+
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  background-color: white;
+  top: 75px;
+  left: 75px;
+
+}
+
+#social_nav_bar {
+  position: relative;
+  width: 1250px;
+  height: 48px;
+  background-color: #5D71FF;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+
+#social_icon_1 {
+
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  background-color: #3D3D3D;
+  left: 79px;
+  top: 12px;
+
+}
+
+#social_icon_2 {
+
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  background-color: #3D3D3D;
+  left: 259px;
+  top: 12px;
+
+}
+
+#social_icon_3 {
+
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  background-color: #3D3D3D;
+  left: 439px;
+  top: 12px;
+
+}
+
+#social_icon_4 {
+
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  background-color: #3D3D3D;
+  left: 619px;
+  top: 12px;
+
+}
+
+#social_icon_5 {
+
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  background-color: #3D3D3D;
+  left: 799px;
+  top: 12px;
+
+}
+
+#social_icon_6 {
+
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  background-color: #3D3D3D;
+  left: 979px;
+  top: 12px;
+
+}
+
+#social_icon_7 {
+
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  background-color: #3D3D3D;
+  left: 1159px;
+  top: 12px;
+
+}
+
+
+
+#social_nav_bar_inside{
+
+  position: relative;
+  width: 1238px;
+  height:36px;
+  background-color: #3D3D3D;
+  margin-right: auto;
+  margin-left: auto;
+  top: 6px;
+}
+
+#projects {
+
+  display: inline-block;
+  position: relative;
+  background-color: #3D3D3D;
+  width: 388px;
+  height: 388px;
+  margin: 0px;
+  left: 56px;
+  top: 25px;
+  border: 6px solid #5D71FF;
+
+}
+
+#blog {
+
+  display: inline-block;
+  position: relative;
+  background-color: #3D3D3D;
+  width: 388px;
+  height: 388px;
+  margin: 0px;
+  left: 77px;
+  top: 25px;
+  border: 6px solid #5D71FF;
+
+}
+
+#about_me {
+
+  display: inline-block;
+  position: relative;
+  background-color: #3D3D3D;
+  width: 388px;
+  height: 388px;
+  margin: 0px;
+  left: 98px;
+  top: 25px;
+  border: 6px solid #5D71FF;
+
+
+}
+
+#boxes {
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  width: 1250px;
+  left: -54px;
+
+}
+
+#projects_text {
+
+  text-align: center;
+  vertical-align: middle;
+
+}
+
+#tile {
+
+  display: inline-block;
+
+}
+
+#blog_header {
+
+  position: relative;
+  background-color: #3D3D3D;
+  width: 1238px;
+  height: 288px;
+  margin-right: auto;
+  margin-left: auto;
+  border: 6px solid #5D71FF;
+  text-decoration: bold;
+  font-size: 56pt;
+  font-family: courier;
+  text-align: center;
+}
+
+#blog_back {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border: 6px solid #5D71FF;
+  top: -1312px;
+  left: 48px;
+}
+
+#blog_body{
+
+  position: relative;
+  background-color: #3D3D3D;
+  width: 1238px;
+  height: 1000px;
+  margin-right: auto;
+  margin-left: auto;
+  border: 6px solid #5D71FF;
+  font-size: 18pt;
+  font-family: courier;
+}
+
+#center_back {
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  width: 1250px;
+  left: -48px;
+
+}
