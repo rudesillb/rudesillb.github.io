@@ -217,7 +217,7 @@ body {
   width: 100px;
   height: 100px;
   border: 6px solid #5D71FF;
-  top: -1312px;
+  top: -1812px;
   left: 48px;
 }
 
@@ -226,7 +226,7 @@ body {
   position: relative;
   background-color: #3D3D3D;
   width: 1238px;
-  height: 1000px;
+  height: 1500px;
   margin-right: auto;
   margin-left: auto;
   border: 6px solid #5D71FF;
@@ -240,5 +240,14 @@ body {
   margin-left: auto;
   width: 1250px;
   left: -48px;
+
+}
+
+p {
+  padding: 0px 10px 0px 10px;
+
+}
+h3 {
+  padding: 0px 10px 0px 10px;
 
 }
