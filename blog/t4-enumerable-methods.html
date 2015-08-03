@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<head>
+  <title>Scarfdestroyer</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+
+<body>
+
+  <div>
+    <div id = "blog_header">
+      <p>BLOG POST 1</p>
+    </div>
+    <div id = "blog_body">
+      <h3>Enumerables</h3>
+      <p>
+        Many times in other coding languages you find yourself spending time on the logic behind what you are try to do. Ruby trys to make this whole process easier by providing the methods in the Enumerable Module. These methods make it easy to "do" things to larger sets of data objects. Everything in the module can be completed with "normal" coding logic but enumerables make them easier and more compact.
+      </p>
+      <h3>Map</h3>
+      <p>The Map enumerable is inherently non-destructive and is a helpful method when modifying arrays. Lets say we want to modify the array: numbers</p>
+      <p>numbers = [5,8,23,42,61]</p>
+      <p>We can use our enumberable map but since it's non-destructive we need to use another array and set it equal to numbers and our .map method.</p>
+      <p>numbers_new = numbers.map {}</p>
+      <p>So now we have a new array and our old array is ready for us to .map it! In the curly brackets we need to specify a variable to use as an instance of how to modify array. Since the array only has one piece of data persection we can just use x.</p>
+      <p>numbers_new = numbers.map {|x|}</p>
+      <p>The way I think about it after this point is that, we will go through each value in the array (thats our x) and for each x we are going to do what? Lets add 5.</p>
+      <p>numbers_new = numbers.map {|x| x + 5}</p>
+      <p>Now we have an array, numbers_new, and in it we have our modified contents which if we p to the console would look like this:</p>
+      <p>[10,13,28,47,66]</p>
+
+    </div>
+    <div id = "center_back">
+    <div id = "blog_back">
+      <a href = "blog-index.html">
+        <img src = "img/back.png"/>
+      </a>
+    </div>
+    </div>
+  </div>
+</body>
