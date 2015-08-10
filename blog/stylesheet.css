@@ -133,47 +133,43 @@ body {
   top: 6px;
 }
 
-#projects {
+#center {
 
   display: inline-block;
   position: relative;
   background-color: #3D3D3D;
   width: 388px;
-  height: 388px;
-  margin: 0px;
-  left: 56px;
-  top: 25px;
+  height: 200px;
+  margin-right: auto;
+  margin-left: auto;
+  margin: 25px;
   border: 6px solid #5D71FF;
 
 }
 
-#blog {
+#right {
 
   display: inline-block;
   position: relative;
   background-color: #3D3D3D;
   width: 388px;
-  height: 388px;
-  margin: 0px;
-  left: 77px;
-  top: 25px;
+  height: 200px;
+  float: right;
+  margin-top: 25px;
   border: 6px solid #5D71FF;
 
 }
 
-#about_me {
+#left {
 
   display: inline-block;
   position: relative;
   background-color: #3D3D3D;
   width: 388px;
-  height: 388px;
-  margin: 0px;
-  left: 98px;
-  top: 25px;
+  height: 200px;
+  float: left;
   border: 6px solid #5D71FF;
-
-
+  margin-top: 25px;
 }
 
 #boxes {
@@ -181,7 +177,6 @@ body {
   margin-right: auto;
   margin-left: auto;
   width: 1250px;
-  left: -54px;
 
 }
 
@@ -218,8 +213,10 @@ body {
   width: 100px;
   height: 100px;
   border: 6px solid #5D71FF;
-  top: -1812px;
-  left: 48px;
+  float: left;
+  top: -240px;
+  left: -6px;
+  vertical-align: middle;
 }
 
 #blog_body{
@@ -251,4 +248,32 @@ p {
 h3 {
   padding: 0px 10px 0px 10px;
 
+}
+a {
+
+  text-decoration: none;
+
+}
+a:visited {
+
+  color: black;
+
+}
+a:hover {
+
+  color: #5D71FF;
+
+}
+#boxtext {
+
+  font-family: courier;
+  font-size: 42pt;
+  text-align: center;
+}
+#boxes2 {
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  width: 1250px;
+  top: -50px;
 }
