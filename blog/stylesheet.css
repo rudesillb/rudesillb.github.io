@@ -134,42 +134,13 @@ body {
 }
 
 #center {
-
-  display: inline-block;
   position: relative;
   background-color: #3D3D3D;
-  width: 388px;
-  height: 200px;
+  width: 1238px;
+  height: 50px;
   margin-right: auto;
   margin-left: auto;
-  margin: 25px;
-  border: 6px solid #5D71FF;
-
-}
-
-#right {
-
-  display: inline-block;
-  position: relative;
-  background-color: #3D3D3D;
-  width: 388px;
-  height: 200px;
-  float: right;
-  margin-top: 25px;
-  border: 6px solid #5D71FF;
-
-}
-
-#left {
-
-  display: inline-block;
-  position: relative;
-  background-color: #3D3D3D;
-  width: 388px;
-  height: 200px;
-  float: left;
-  border: 6px solid #5D71FF;
-  margin-top: 25px;
+  border: 6px solid #3D3D3D;
 }
 
 #boxes {
@@ -252,6 +223,7 @@ h3 {
 a {
 
   text-decoration: none;
+  color: black;
 
 }
 a:visited {
@@ -267,8 +239,8 @@ a:hover {
 #boxtext {
 
   font-family: courier;
-  font-size: 42pt;
-  text-align: center;
+  font-size: 16pt;
+
 }
 #boxes2 {
   position: relative;
