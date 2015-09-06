@@ -1,6 +1,0 @@
----
-layout: post
-title:  "Git Blog"
-date:   2015-9-06 10:52:34
-categories: technical
----
