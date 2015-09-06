@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "Thinking Style"
+date:   2015-9-06 10:53:34
+categories: technical
+---
+#Thinking Helps#
+
+My style based off of my personal thinking style quiz was largely concrete sequential and according to the explanation I: "tend to be based in reality. They process information in an ordered, sequential, linear way." I think this is pretty true when reflecting on myself. I have a very hard time with any kind of REAL creation like music or lyrics or art in general, but this doesn't mean I am bad at all of these things. I can't write lyrics/music but I am good at playing others' music and I can hear scales and notes and decide what would come next. I can't write creatively to save my life, but I have always been decent at writing about things or to explain something. I have always been a problem solver and can be creative, but only in a utilitarian way, if that makes sense. I think knowing and understanding this could be helpful to me at DBC because I can tell others what I am good at and what I am not. This may mean choosing to do a lot of the functional code, choosing to abstain from the styling and layout of certain projects and leave those up to someone who is best suited for them.
+
+#Reflect#
+
+Up until now DBC has been a lot of work and besides all of this reflection tomfoolery, has been mostly review for me. I have used git and test based coding in the course One Month Rails, I have practiced on my own with HTML and CSS and even built my girlfriend a website, and I have coded a ton in Java and C in college and worked in Ruby on the side so I was familiar with the syntax. My main problem I'm having with DBC or really life in general is getting started. Getting started on work is the hardest part for me with all the distractions life (and the internet) offers. I have found though that when I just buckle down and start working I can power through what I have to do, especially if I have some coffee first.
+
+#Stay or Grow#
+
+Being well rounded and knowing all I can muster about the subjects I enjoy has always been important to me. When people say things are too hard I always seem to reply: "Well somebody has done it haven't they?" This mindset I think is good for growth and good for staying enthusiastic about my struggles in life but I think I just need to broaden this way of thinking into more important parts of my life. I need to take this "learn everything to a logical conclusion" and apply it to coding. I need to get more excited about being the best I can at things I enjoy on the weekdays as well as the weekends.
