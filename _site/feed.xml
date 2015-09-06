@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Scarfdestroyer</title>
+    <description></description>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 06 Sep 2015 12:33:05 -0700</pubDate>
+    <lastBuildDate>Sun, 06 Sep 2015 12:33:05 -0700</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Tech</title>
+        <description>&lt;h2 id=&quot;audio-compression&quot;&gt;Audio Compression&lt;/h2&gt;
+
+&lt;h1 id=&quot;losslesslossy-audio-quality&quot;&gt;Lossless/Lossy Audio Quality&lt;/h1&gt;
+
+&lt;p&gt;Lossless – A compressed version of the audio file that by uncompressing it with the original encoder can be returned to its original uncompressed format.&lt;/p&gt;
+
+&lt;p&gt;Common formats - WAV, AIFF, FLAC, Apple Lossless&lt;/p&gt;
+
+&lt;p&gt;Lossy – Cannot be returned to its original uncompressed format but
+at the advantage of saving space.&lt;/p&gt;
+
+&lt;p&gt;Common formats – MP3, AAC, OGG&lt;/p&gt;
+
+&lt;h1 id=&quot;bit-ratesample-rate&quot;&gt;Bit Rate/Sample Rate&lt;/h1&gt;
+
+&lt;p&gt;Bit Rate - the number of bits (1 or 0) that an encoder is allowed to allocate for each second of audio&lt;/p&gt;
+
+&lt;p&gt;Common rates – 128, 192, 256, 320 Kbps&lt;/p&gt;
+
+&lt;p&gt;Bit rate can be constant (CBR) or variable (VBR).&lt;/p&gt;
+
+&lt;p&gt;Sample Rate – the number of times a second a sample is taken to turn an analog signal into a digital one&lt;/p&gt;
+
+&lt;p&gt;Common rates – 44.1, 96, 192, Khz&lt;/p&gt;
+
+&lt;h1 id=&quot;how-encoders-work&quot;&gt;How Encoders Work&lt;/h1&gt;
+
+&lt;p&gt;Encoders have two basic jobs to complete in order to be successful&lt;/p&gt;
+
+&lt;p&gt;Make the file as small as possible and make the file as high quality as possible&lt;/p&gt;
+
+&lt;p&gt;They separate the audio by length and frequency&lt;/p&gt;
+
+&lt;p&gt;Huffman Coding - a database of frequently used bit strings (must be created per application) is ranked in order of occurrence. This allows the encoder to go down the string of bits and when it can guess the correct one before having to use the ASCII representation number of bits.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 06 Sep 2015 04:04:34 -0700</pubDate>
+        <link>/technical/2015/09/06/Tech.html</link>
+        <guid isPermaLink="true">/technical/2015/09/06/Tech.html</guid>
+        
+        
+        <category>technical</category>
+        
+      </item>
+    
+      <item>
+        <title>Conflict</title>
+        <description>
+</description>
+        <pubDate>Sun, 06 Sep 2015 04:03:34 -0700</pubDate>
+        <link>/cultural/2015/09/06/Conflict.html</link>
+        <guid isPermaLink="true">/cultural/2015/09/06/Conflict.html</guid>
+        
+        
+        <category>cultural</category>
+        
+      </item>
+    
+      <item>
+        <title>Javascript</title>
+        <description>&lt;h1 id=&quot;hashes-vs-objects&quot;&gt;Hashes Vs. Objects&lt;/h1&gt;
+
+&lt;p&gt;Hashes in Ruby and objects in Javascript are very similar. They define a title for the element, an accessor title for each part of that element, and then a value for each of those parts. Javascript objects seem to be a mix of both hashed and method in Ruby as they are used for more functional things rather than just storing data.&lt;/p&gt;
+
+&lt;h1 id=&quot;ruby-hash&quot;&gt;Ruby Hash&lt;/h1&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;myhash&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;key1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Javascript Object&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;nx&quot;&gt;myobject&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;myobjectname&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,};&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Classes Vs. Functions&lt;/p&gt;
+
+&lt;p&gt;Classes and functions are identical in functionality but different in application and syntax. Ruby classes are very simple that define like:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Myclass&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Javascript functions are slightly more verbose&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;myFunction&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(){};&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;These functions take up the functionality of Ruby classes and methods. There doesn’t really seem to be a one to one correlation between all of the objects but there isn’t really any question as to how they work since there are more similarities than differenced.&lt;/p&gt;
+
+&lt;h1 id=&quot;documentation&quot;&gt;Documentation&lt;/h1&gt;
+
+&lt;p&gt;The Ruby docs are probably my favorite way of learning about a languages attributes and methods. They are sorted by each object such as strings, arrays, hashes etc. and they list every built in method that you can use on that particular object. They give a quick run down of how it works and a few examples for each method.&lt;/p&gt;
+
+&lt;p&gt;Javascript is much the same although the way that they organize it and give examples, in regards to Ruby, seems a little too verbose.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 06 Sep 2015 04:02:34 -0700</pubDate>
+        <link>/technical/2015/09/06/Javascript.html</link>
+        <guid isPermaLink="true">/technical/2015/09/06/Javascript.html</guid>
+        
+        
+        <category>technical</category>
+        
+      </item>
+    
+      <item>
+        <title>Values</title>
+        <description>&lt;h1 id=&quot;knowledge&quot;&gt;Knowledge&lt;/h1&gt;
+&lt;p&gt;#Truth#
+#Adventure#
+#Friendships#
+#Excitement#
+#Ambition#&lt;/p&gt;
+
+&lt;p&gt;In my freshman year of college we had to pick a FYS as they called it, a first year seminar. It was a easier class that was supposed to be something you were relatively interested in and mine really shaped how I think. My FYS was called ‘A Skeptic’s Manifesto’ and was about logical falacies, skepticism, and reasoning in logical ways. The professor really inspired me with his knowledge and search for all things truthful. It really matured the way I think and it was really important for myself as a person.&lt;/p&gt;
+
+&lt;p&gt;Most of the things that I give advice on have to do with the values and my personality. For the most part I give advice to my friends and family about computers, audio, cars, and music.&lt;/p&gt;
+
+&lt;p&gt;While reflecting on these values I get slightly worried that I may only be a voice of facts and not about anything in any grey areas or feelings. I think that my brain probably isn’t the best suited for these types of problems but I do try my hardest to be socially concious. Even though I like facts and reason a lot analyzing social situations is something i do a lot in my head anyway.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 06 Sep 2015 04:01:34 -0700</pubDate>
+        <link>/cultural/2015/09/06/Values.html</link>
+        <guid isPermaLink="true">/cultural/2015/09/06/Values.html</guid>
+        
+        
+        <category>cultural</category>
+        
+      </item>
+    
+      <item>
+        <title>OOP Concepts</title>
+        <description>&lt;h1 id=&quot;variable-scope&quot;&gt;Variable Scope&lt;/h1&gt;
+
+&lt;p&gt;Variable scope is an important tool in any language and allows some variables to be applicable everywhere in a project or just used for an iterator in a single if statement.&lt;/p&gt;
+
+&lt;h1 id=&quot;constant&quot;&gt;Constant&lt;/h1&gt;
+
+&lt;p&gt;Constants are designated as:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;no&quot;&gt;VARIABLE&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Constants are just as they sound. They are set at the beginning of a program and are meant to be unchanged. Ruby itself doesn’t mind if you change it to something else but it will give you a warning as that isn’t what they are designed to do.&lt;/p&gt;
+
+&lt;h1 id=&quot;global&quot;&gt;Global&lt;/h1&gt;
+
+&lt;p&gt;Global variables ar written:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;vg&quot;&gt;$global&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Global variables are designed to be across all types of classes or methods and really anywhere in your program&lt;/p&gt;
+
+&lt;h1 id=&quot;class-variable&quot;&gt;Class Variable&lt;/h1&gt;
+
+&lt;p&gt;Class variables are written:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;vc&quot;&gt;@@class_variable&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Class variables stay the same through all instances of the class and are usefull for things that don’t ever change for your class.&lt;/p&gt;
+
+&lt;h1 id=&quot;instance-variable&quot;&gt;Instance Variable&lt;/h1&gt;
+
+&lt;p&gt;Instance variables are written:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;vi&quot;&gt;@instance_variable&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Instance variables are re-used everytime you create a new instance of the class so if your class is a person the person can be different every time.&lt;/p&gt;
+
+&lt;h1 id=&quot;local-variable&quot;&gt;Local Variable&lt;/h1&gt;
+
+&lt;p&gt;Local variables don’t have any special designation and are useful for iteration. Local variables are only good for that particular block of code.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 06 Sep 2015 04:00:34 -0700</pubDate>
+        <link>/technical/2015/09/06/OOP-Concepts.html</link>
+        <guid isPermaLink="true">/technical/2015/09/06/OOP-Concepts.html</guid>
+        
+        
+        <category>technical</category>
+        
+      </item>
+    
+      <item>
+        <title>Stereotype Threat</title>
+        <description>&lt;h1 id=&quot;stereotype-threat&quot;&gt;Stereotype Threat&lt;/h1&gt;
+
+&lt;p&gt;As a white middle-class male I haven’t had much experience with any type of negative stereotypes and am priviledged to not expect to have to prove any of them wrong. As a student that was interesting in psycology since high school, I know that priming someone with negative stereotypes can significantly impact the way that they preform on tests and even can be triggered by simply asking the student their race with out any negative information associated.&lt;/p&gt;
+
+&lt;p&gt;A lot of people seem to be concerned with the “don’t offend anyone” culture that seems to becoming popular as of late and I feel stuck in a sensible middle. I think it’s important to be inclusive to all people who you interact with until they prove to you that they aren’t worth including. I tend to try and be aware of various social situations and be as nice and inclusive as possible but I usually don’t try and be an activist about most things, probably due to my propensity to stay out of akward situations. I’m not going to be the one who is picketing on the side walk but if some is being disadvantaged or made fun of in a mean way I will be sure to say something.&lt;/p&gt;
+
+&lt;p&gt;I don’t want to be mean or overt in the way that I point things out though. I think quietly pointing someone to a better way of life or way of acting is always the way to go about it. “Yeah, I wouldn’t use that word” or “Eh that’s not true/nice to say” is always going to be better than yelling at someone for being wrong.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 06 Sep 2015 03:59:34 -0700</pubDate>
+        <link>/cultural/2015/09/06/Stereotype-Threat.html</link>
+        <guid isPermaLink="true">/cultural/2015/09/06/Stereotype-Threat.html</guid>
+        
+        
+        <category>cultural</category>
+        
+      </item>
+    
+      <item>
+        <title>Ruby Classes</title>
+        <description>&lt;h1 id=&quot;instance-variables&quot;&gt;Instance Variables&lt;/h1&gt;
+
+&lt;p&gt;Instance variables are normal varables that you use every except that they can be used across methods. In the class above called address the method “title” takes an argument name. This name is currently a local variable and will return an error. On the next line, however, we set the instance varable @name equal to name. This means that we can now use @name in order to call the variable from other places in the class. It doesn’t have to be the same name as the local variable it just makes it easy this way!&lt;/p&gt;
+
+&lt;h1 id=&quot;instance-methods&quot;&gt;Instance Methods&lt;/h1&gt;
+
+&lt;p&gt;This code excerpt is from railstips.org&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Foo&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;baz&lt;/span&gt;
+    &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;instance method&amp;#39;&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Here we just have a class called ‘Foo’ and inside of this is a method called ‘baz’. This method just puts “instance method” because Foo.new.baz calls it as an instance. The main part that defines an instance method is that you have create a new “instance” in order to use them.&amp;lt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 06 Sep 2015 03:58:34 -0700</pubDate>
+        <link>/technical/2015/09/06/Ruby-Classes.html</link>
+        <guid isPermaLink="true">/technical/2015/09/06/Ruby-Classes.html</guid>
+        
+        
+        <category>technical</category>
+        
+      </item>
+    
+      <item>
+        <title>Feedback</title>
+        <description>&lt;h2 id=&quot;pairing&quot;&gt;Pairing&lt;/h2&gt;
+
+&lt;h1 id=&quot;whats-it-like&quot;&gt;What’s it like?&lt;/h1&gt;
+
+&lt;p&gt;I think pairing, as a coder who likes to hide in the dark by himself, is a bit nerveracking. Having to meet with random people on the internet to solve problems is scary at first. I don’t usually want to solve problems with my friends! Jokes aside though, peer pairing can be really helpful. Figuring out what is the key part of information that makes you understnd a built-in method or calling a class and being able to share it with other people is REALLY helpful. It’s helpful because, a lot of times they have one of those bit of information for something you don’t understand and you have one for them. It’s great where your skills can pick up where others leave off and vis-versa.&lt;/p&gt;
+
+&lt;h1 id=&quot;what-was-frustratingdifficult&quot;&gt;What was Frustrating/Difficult&lt;/h1&gt;
+
+&lt;p&gt;Sometimes when people aren’t strong with their coding you can have situation where one person is doing more work. Being in DBC, it’s as important to learn the material for yourself as it is to learn it to help others during paring.&lt;/p&gt;
+
+&lt;h2 id=&quot;feedback&quot;&gt;Feedback&lt;/h2&gt;
+
+&lt;h1 id=&quot;feeling-while-reading&quot;&gt;Feeling While Reading&lt;/h1&gt;
+
+&lt;p&gt;Feedback, so far at least, seems like it is “Nice job man, hope to pair again” or if you have a bad pair, the other person coming up with reasons why you didn’t do a good job.&lt;/p&gt;
+
+&lt;h1 id=&quot;was-feedback-helpful&quot;&gt;Was Feedback Helpful?&lt;/h1&gt;
+
+&lt;p&gt;I haven’t had much feedback that has been outright helpful. A lot of times it describes things as they were and as what both already understood. I have heard from some people though that some of their pairs wrongfully put the blame on them when it wasn’t their fault.&lt;/p&gt;
+
+&lt;h1 id=&quot;writing-feeback&quot;&gt;Writing Feeback&lt;/h1&gt;
+
+&lt;p&gt;Most of the time peer paring is fine and I don’t really know what to say other than they did a good job and I would gladly pair with them again.&lt;/p&gt;
+
+&lt;h1 id=&quot;hard-part-of-writing-feedback&quot;&gt;Hard Part of Writing Feedback&lt;/h1&gt;
+
+&lt;p&gt;Writing negative feedback isn’t very hard, mostly because of how easy it is to be critical of people that aren’t yourself. I usually try to look at people problems on the bright side and say that they can easily fix it. I have only really given negative feedback once though.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 06 Sep 2015 03:57:34 -0700</pubDate>
+        <link>/cultural/2015/09/06/Feedback.html</link>
+        <guid isPermaLink="true">/cultural/2015/09/06/Feedback.html</guid>
+        
+        
+        <category>cultural</category>
+        
+      </item>
+    
+      <item>
+        <title>Enumerable Methods</title>
+        <description>&lt;h1 id=&quot;enumerables&quot;&gt;Enumerables&lt;/h1&gt;
+
+&lt;p&gt;Many times in other coding languages you find yourself spending time on the logic behind what you are try to do. Ruby trys to make this whole process easier by providing the methods in the Enumerable Module. These methods make it easy to “do” things to larger sets of data objects. Everything in the module can be completed with “normal” coding logic but enumerables make them easier and more compact.&lt;/p&gt;
+
+&lt;h1 id=&quot;map&quot;&gt;Map&lt;/h1&gt;
+
+&lt;p&gt;The Map enumerable is inherently non-destructive and is a helpful method when modifying arrays. Lets say we want to modify the array: numbers&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;numbers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;8&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;23&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;42&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;61&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;We can use our enumberable map but since it’s non-destructive we need to use another array and set it equal to numbers and our .map method.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;numbers_new&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;numbers&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;map&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;So now we have a new array and our old array is ready for us to .map it! In the curly brackets we need to specify a variable to use as an instance of how to modify array. Since the array only has one piece of data persection we can just use x.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;numbers_new&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;numbers&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;map&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;The way I think about it after this point is that, we will go through each value in the array (thats our x) and for each x we are going to do what? Lets add 5.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;numbers_new&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;numbers&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;map&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Now we have an array, numbers_new, and in it we have our modified contents which if we p to the console would look like this:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;13&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;28&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;47&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;66&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+</description>
+        <pubDate>Sun, 06 Sep 2015 03:56:34 -0700</pubDate>
+        <link>/technical/2015/09/06/Enumerable-Methods.html</link>
+        <guid isPermaLink="true">/technical/2015/09/06/Enumerable-Methods.html</guid>
+        
+        
+        <category>technical</category>
+        
+      </item>
+    
+      <item>
+        <title>Tech Issues</title>
+        <description>&lt;h2 id=&quot;online-security&quot;&gt;Online Security&lt;/h2&gt;
+
+&lt;h1 id=&quot;overview&quot;&gt;Overview&lt;/h1&gt;
+
+&lt;p&gt;Online security has recently become an issue for the masses because of the prevelance of data collection. With every keystroke, page visit, and e-mail sent there is someone that is collecting data about you. Some types of data collection are less harmful than others but it is up to each tech giant to decide what they are going to collect, how they store it, and who they give it to. Some companies may have your security in mind when creating the standards they operate by, but since the privacy agreements we all agree to are rarely read, the vast majority of people never know which companies are “good” or “bad”. Furthermore, most of the times there isn’t a clear cut way to tell what you should and shouldn’t be concerned about because of the wide variety of opinions that surround computer security. For every person that tells you, “Eh, i wouldn’t worry about it if you aren’t doing anything wrong”, there is a person who says, “Never plug your computer into the internet, ever.”&lt;/p&gt;
+
+&lt;h1 id=&quot;recent-privacy-issues&quot;&gt;Recent Privacy Issues&lt;/h1&gt;
+
+&lt;p&gt;Going one way or the other with data collection and processing can be a tricky matter. Sure it would be easy to just say, “Hey companies, don’t do it!” but some tech giants are actually using these powers for the greater good. Google, for instance, uses their mail servers to search through their Gmail users’ emails for child pornography. This searching is a more recent application, but it is an easy way to grab the low hanging fruit of child predators and I think, something we can really jump on board with. Some will say that the “don’t be worried if you aren’t doing anything wrong” argument is weak but considering it isn’t storing any information and it is Google doing a search of the files you are storing on THEIR servers already, I can let it pass. Another recent issue with some people is that Microsoft is making it increasingly harder to be able to use each new iteration of Windows with out signing in to their accounts for one reason or another. In their recent release of Windows 10 they ask for your information everywhere; they want you email in order to search with cortana, for Onedrive back ups, and for using their own version of Google Docs(a web client for Office). The big differential between whether this type of connectivity is okay for most people is if you expect it. I expect to need to give some information while buying things or sending emails but I don’t expect to have to give it to be able to search the internet (like with Cortana integration in Windows 10).&lt;/p&gt;
+
+&lt;h1 id=&quot;what-can-we-do&quot;&gt;What Can We Do?&lt;/h1&gt;
+
+&lt;p&gt;Like all things technology, you will get back what effort you put into it. If you don’t read the license agreements or think about internet privacy much at all you won’t have vaery much. If you treat the internet like Area 51 however, you might not ever be seen or recognized. You can’t stop websites from taking in data about your browsing habits but you can make their data worthless. A big step toward security on the internet is having a good annonimizing software for your internet connection. Being able to encrypt your connection through a company with a solid reputation for not keeping records is a good first start. If you are interested in such a company Private Internet Access does just the trick and offers very competively priced plans. Second is just knowing what companies your dealing with. Not saying one has to actually read the license agreements but if you check up on what others think of the company and their services in a privacy oriented way, that could be a good start.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 06 Sep 2015 03:55:34 -0700</pubDate>
+        <link>/cultural/2015/09/06/Tech-Issues.html</link>
+        <guid isPermaLink="true">/cultural/2015/09/06/Tech-Issues.html</guid>
+        
+        
+        <category>cultural</category>
+        
+      </item>
+    
+  </channel>
+</rss>
